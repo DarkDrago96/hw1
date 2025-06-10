@@ -1,1 +1,1 @@
-# hw1
+# I seguenti file fanno riferimento al hw1. la pagina principale fa riferimento al sito web viktorv.it (anche se ci sono delle modifiche che servono per completare gli obbiettivi del hw1 e precedenti mhw)
