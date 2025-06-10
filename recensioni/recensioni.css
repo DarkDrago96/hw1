@@ -1,0 +1,66 @@
+.singola_recensione{
+    text-align: center;
+    background-color: #ccc;
+    padding: 5px;
+    width: auto;
+    border: solid 1px gray;
+}
+.singola_recensione p{
+    font-size: 1rem;
+    margin: 0;
+}
+.singola_recensione span{
+    font-size: 1.2rem;
+}
+
+#sezione_recensioni{
+    max-width:720px; 
+    margin:20px auto; 
+    padding:0 16px; 
+    border-radius:12px; 
+    box-shadow:0 4px 12px rgba(0,0,0,.1);
+}
+#sezione_recensioni h2{
+    text-align:center; 
+    padding: 15px 0;
+}
+#sezione_recensioni h3{
+    text-align: center; 
+    margin: 10px 0;
+}
+#sezione_recensioni form{
+    display: flex;
+    flex-direction: column;
+    padding: o 24px 24px 24px;
+}
+#input_voto{
+    font-size:1rem;
+    padding:10px 12px;
+    border:1px solid grey;
+    border-radius:12px;
+}
+#sezione_recensioni form textarea{
+    font-size:1rem;
+    padding:10px 12px;
+    border:1px solid grey;
+    border-radius:12px;
+    min-height:80px;
+}
+#sezione_recensioni form span{
+    text-align: center; 
+    margin: 3px 0;
+}
+#azione_recensione{
+    font-size:1rem;
+    padding:10px 12px;
+    border:none;
+    border-radius:12px;
+    background:#e63946;
+    color:white;
+    cursor:pointer;
+}
+#div_accedi_recensione{
+    display: flex; 
+    justify-content: center; 
+    align-items:center
+}

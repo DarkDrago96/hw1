@@ -1,0 +1,65 @@
+#modale_area{
+position:fixed;
+top: 0;
+left: 0;
+height:100vh;
+width:100vw;
+background:rgba(0,0,0,.8); 
+display:none;
+justify-content:center;
+align-items:center;
+z-index:2;
+font-family: 'Segoe UI',sans-serif;
+}
+#modale_area section{
+width:500px;
+background:white;
+border-radius:12px;
+padding:0 0 24px 0;
+max-height:90vh;
+overflow:auto;
+}
+#x_modale_area{
+width: 30px;
+height: 30px;
+cursor: pointer;
+}
+#modale_area hr{
+margin:16px 0
+}
+#modale_area h1{
+margin:0 0 6px 0;
+font-weight: 600;
+font-size: 1.8rem;
+}
+#titolo_area{
+display:flex;
+padding:16px 20px 0 20px;
+}
+#titolo_area div{
+flex: 8;
+}
+#dati_utente_area{
+padding:0 20px;
+font-weight: 500;
+font-size: 1rem;
+}
+#lista_prenotazioni_area{
+padding:0 20px;
+}
+#lista_prenotazioni_area h2{
+font-weight: 600;
+font-size: 1.3rem;
+}
+#lista_prenotazioni_area p{
+margin:5px 0;
+font-weight: 400;
+font-size: 0.9rem;
+}
+#lista_prenotazioni{
+list-style:none;
+padding:0;
+margin:0;
+font-weight: 400;
+font-size: 0.95rem;
+}
